@@ -47,8 +47,7 @@ module Players
         combo.each do |space|
           if board.cells[space] == @token
             break
-          end
-          if board.cells[space] != @token
+          elsif board.cells[space] != @token
             list << space
           end
         end
