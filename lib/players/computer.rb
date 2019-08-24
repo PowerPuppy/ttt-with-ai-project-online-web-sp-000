@@ -48,7 +48,7 @@ module Players
           if board.cells[space] == @token
             break
           end
-          if board.cells[space] != @token 
+          if board.cells[space] != @token
             list << space
           end
         end
